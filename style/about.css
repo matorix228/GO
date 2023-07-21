@@ -1,0 +1,26 @@
+
+.about__text {
+    font-size: 20px;
+}
+
+.about__quote {
+    font-size: 40px;
+}
+
+.about__quote:before {
+    content: '"';
+    color: #6C0287;
+}
+
+.about__quote:after {
+    content: '"';
+    color: #6C0287;
+}
+
+.about__cite {
+    width: 280px;
+}
+
+.about__cite:before {
+    content: url("./../img/arkadiy.png");
+}

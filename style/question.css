@@ -1,0 +1,32 @@
+
+.question__text {
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+}
+
+.question__text-purple{
+    background-color: #440F51;
+    color: #FFF;
+}
+
+.question__text:after {
+    content: url("./../img/open-purple.svg");
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
+.question__text-purple:after {
+    content: url("./../img/open.svg");
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    float: right;
+}

@@ -1,0 +1,16 @@
+
+.header__title {
+    font-size: 150px;
+    margin: 0;
+}
+
+.header__subtitle{
+    font-size: 28px;
+    margin: 0 0 0 100px;
+}
+
+.header__man-img{
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
