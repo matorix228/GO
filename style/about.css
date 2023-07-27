@@ -1,5 +1,6 @@
 .about {
     min-height: 736px;
+    padding-top: 50px;
 }
 
 .about__img {
@@ -20,33 +21,65 @@
     margin-bottom: 60px;
 }
 
+.about__blockquote-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__blockquote {
+    display: flex;
+    flex-direction: column;
     max-width: 470px;
-    float: right;
-    margin: 0;
+    float: left;
+    margin: 0 0 41px 0;
+
 }
 
 .about__quote-figure {
+    display: flex;
     margin: 0;
 }
 
 .about__quote {
-    font-size: 40px;
-    margin: 0;
+    margin: 0 0 39px 0;
+    text-transform: uppercase;
+    float: left;
+    width: 370px;
+    font-size: 44px;
+    line-height: 50px;
+    font-style: normal;
+}
+
+.about__quote_img {
+    height: 80px;
+    margin-right: 30px;
+    margin-left: 110px;
 }
 
 .about__quote:before {
     content: '"';
     color: #6C0287;
+    font-size: 44px;
+    font-weight: 900;
 }
 
 .about__quote:after {
     content: '"';
     color: #6C0287;
+    font-size: 44px;
+    font-weight: 900;
 }
 
 .about__quote_text {
     font-size: 20px;
-    width: 280px;
+    width: 250px;
     margin: 0;
+}
+
+.about__span {
+    padding-left: 22px;
+}
+
+.about__span_word-break {
+    word-break: break-all;
 }

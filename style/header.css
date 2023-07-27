@@ -1,4 +1,9 @@
 
+.header {
+    height: 823px;
+    margin-bottom: 50px;
+    position: relative;
+}
 .header__title {
     font-size: 150px;
     margin: 0;
@@ -12,5 +17,5 @@
 .header__man-img{
     position: absolute;
     top: 70px;
-    right: 200px;
+    right: 0;
 }

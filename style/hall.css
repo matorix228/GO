@@ -1,3 +1,8 @@
+
+.hall {
+    padding-top: 50px;
+}
+
 .hall__item_bg-vibes {
     background-image: url("./../img/vibes.jpg");
 }
@@ -12,10 +17,6 @@
 
 .hall__item_bg-neon {
     background-image: url("./../img/neon_style.jpg");
-}
-
-.hall__text {
-    width: min-content;
 }
 
 .hall__item {

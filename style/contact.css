@@ -1,10 +1,21 @@
 
+
+.contact{
+    padding-top: 50px;
+}
+
 .contact__input {
     font-size: 24px;
 }
 
 .contact__input_address {
     margin-bottom: 38px;
+    width: 280px;
+    clear: left;
+}
+
+.contact__text_padding-left {
+    padding-left: 70px;
 }
 
 .contact__input_address:before {

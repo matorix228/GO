@@ -9,20 +9,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    height: 823px;
-    margin-bottom: 100px;
-}
-
 li {
     list-style-type: none;
 }
 
 h2 {
+    margin-top: 0;
     text-transform: uppercase;
     text-align: center;
     font-size: 40px;
 }
+
+
 
 .wrapper {
     width: 1180px;

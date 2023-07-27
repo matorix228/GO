@@ -1,4 +1,9 @@
 
+
+.question {
+    padding-top: 50px;
+}
+
 .question__text {
     background-color: #fff;
     color: #1C1A1A;
