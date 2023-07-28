@@ -3,6 +3,7 @@
 @import "about.css";
 @import "question.css";
 @import "contact.css";
+@import "feedback.css";
 body {
     background-color: #1B1A1B;
     color: #fff;
@@ -25,4 +26,5 @@ h2 {
 .wrapper {
     width: 1180px;
     margin: auto 146px;
+    overflow: hidden;
 }
