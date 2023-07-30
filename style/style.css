@@ -21,10 +21,13 @@ h2 {
     font-size: 40px;
 }
 
+section{
+    padding-top: 50px;
+}
 
-
-.wrapper {
+.container {
     width: 1180px;
-    margin: auto 146px;
+    margin: 0 auto ;
     overflow: hidden;
 }
+

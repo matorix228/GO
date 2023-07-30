@@ -1,0 +1,27 @@
+
+
+.feedback {
+    padding-top: 50px;
+}
+
+.feedback__figcaption {
+    max-width: 280px;
+    text-align: center;
+    margin: 0 0  50px 0;
+}
+
+.feedback__text {
+    position: relative;
+    right: 70px;
+    max-width: 680px;
+    padding-top: 52px;
+    margin: 0;
+    float: right;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.feedback__img {
+    margin-bottom: 20px;
+}
+
