@@ -1,0 +1,61 @@
+
+.rest__title {
+    width: 700px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    text-transform: uppercase;
+}
+
+.rest__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    padding: 0;
+}
+
+.rest__item {
+    display: flex;
+    align-items: flex-end;
+    width: 380px;
+    height: 228px;
+    color: #FFF;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: auto;
+}
+
+.rest__item_vr {
+    background-image: url("./../img/vr-glasses.jpg");
+}
+.rest__item_sound {
+    background-image: url("./../img/sound.jpg");
+}
+.rest__item_karaoke {
+    background-image: url("./../img/karaoke.jpg");
+}
+.rest__item_board-game {
+    background-image: url("./../img/board-game.jpg");
+}
+.rest__item_netflix {
+    background-image: url("./../img/netflix.jpg");
+}
+.rest__item_play-station {
+    background-image: url("./../img/play-station.jpg");
+}
+
+.rest__text {
+    display: flex;
+    margin: 34px 40px;
+}
+
+.rest__text_margin {
+    display: flex;
+    margin: 0 40px;
+}

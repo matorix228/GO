@@ -1,13 +1,19 @@
-@import "header.css";
+@import "introduction.css";
+@import "menu.css";
+@import "rest.css";
 @import "hall.css";
 @import "about.css";
 @import "question.css";
 @import "contact.css";
 @import "feedback.css";
+@import "book.css";
+@import "choose.css";
+
 body {
     background-color: #1B1A1B;
     color: #fff;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 li {
@@ -23,6 +29,10 @@ h2 {
 
 section{
     padding-top: 50px;
+}
+
+fieldset {
+    border:0 none;
 }
 
 .container {

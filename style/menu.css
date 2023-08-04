@@ -1,0 +1,38 @@
+
+.menu {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__item {
+    line-height: 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.menu__button {
+    border:  3px solid #CD06FF;
+    min-width: 280px;
+    min-height: 55px;
+    border-radius: 10px;
+    background: #1B1A1B;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}

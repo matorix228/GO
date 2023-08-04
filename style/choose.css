@@ -1,0 +1,160 @@
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 40px 0 ;
+}
+
+.choose__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose__fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.choose__subtitle {
+    color: #FFF;
+    font-family: Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.choose__label {
+    color: #fff;
+    font-family: Arial,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.choose__label_btn {
+    color: #000;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    text-transform: uppercase;
+}
+
+.choose__radio {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.choose__radio input[type=radio] {
+    display: none;
+}
+
+.choose__radio label {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    line-height: 34px;
+}
+
+.choose__input_btn {
+    color: #000;
+    z-index: 100;
+}
+
+.choose__input_checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+.data {
+    display: flex;
+    width: 980px;
+}
+
+.data_name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data_date {
+    display: flex;
+    max-width: 320px;
+    gap: 36px  32px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+
+.choose__data {
+    width: 134px;
+    height: 52px;
+    position: relative;
+}
+
+.choose__data_people {
+    width: 300px;
+}
+.choose__data::placeholder {
+    color: #000;
+    padding: 12px 20px;
+}
+
+.choose__data:after {
+    content: url("./../img/arrow.svg");
+    padding: 19px 27px 19px 0;
+}
+
+.choose__data_date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.choose__text {
+    width: 280px;
+    height: 52px;
+}
+
+.data_name {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 50px;
+}
+
+.choose__div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 280px;
+}
+
+.choose__book {
+    float: right;
+    border-radius: 10px;
+    background: #FFF;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    right: 115px;
+    color: #6C0287;
+    font-family: Arial,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
