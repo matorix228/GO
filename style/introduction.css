@@ -2,9 +2,9 @@
 .introduction {
     height: 823px;
     margin-bottom: 50px;
+    padding-top: 50px;
 
 }
-
 .introduction__container {
     position: relative;
     min-height: 100%;
@@ -73,8 +73,21 @@
     border-radius: 10px;
     background: #6C0287;
     text-decoration: none;
-    box-shadow: 5px 5px 5px  #410151 ;
 }
+
+.introduction__link-book:hover {
+    background: #840AA3;
+}
+.introduction__link-book:active {
+    background: #640AA3;
+}
+
+.introduction__link-book:focus {
+    outline: 1px solid #CD06FF;
+    background: #840AA3;
+}
+
+
 
 .introduction__link-end {
     background: url("./../img/down.svg");
@@ -84,3 +97,13 @@
     bottom: 90px;
     right: 50%;
 }
+
+.introduction__link-end:hover {
+    background-image: url("./../img/down-hover.svg");
+}
+
+
+.introduction__link-end:active {
+    background-image: url("./../img/down-active.svg");
+}
+

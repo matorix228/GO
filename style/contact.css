@@ -52,3 +52,9 @@
 .contact__input_r-margin {
     margin-right: 26px;
 }
+.contact__img:hover, .contact__img:focus{
+    fill: #EADEED;
+}
+.contact__img:active{
+    fill: #CD06FF;
+}

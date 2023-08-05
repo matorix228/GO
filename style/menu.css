@@ -2,8 +2,10 @@
 .menu {
     width: 1180px;
     margin: 0 auto;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
+
   }
 
 .menu__list {
@@ -36,3 +38,15 @@
     line-height: 30px;
     text-transform: uppercase;
 }
+
+.menu__button:hover, .menu__button:focus {
+    border: 3px solid #6C0287;
+    background: #6C0287;
+}
+
+.menu__button:active {
+    border: 1px solid #000;
+    background: #640AA3;
+}
+
+
