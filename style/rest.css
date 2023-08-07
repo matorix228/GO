@@ -34,7 +34,7 @@
 
 .rest__item:hover {
     transform: scale(110%);
-    box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.3) ;
+    box-shadow: 0 0 20px 2px rgb(255, 255, 255);
 }
 
 

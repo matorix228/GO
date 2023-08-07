@@ -8,6 +8,7 @@
 @import "feedback.css";
 @import "book.css";
 @import "choose.css";
+@import "choose_radio.css";
 
 body {
     background-color: #1B1A1B;
@@ -35,9 +36,14 @@ fieldset {
     border:0 none;
 }
 
+input,label,button {
+    cursor: pointer;
+}
+
 .container {
     width: 1180px;
     margin: 0 auto ;
     overflow: hidden;
+    padding: 0 40px ;
 }
 

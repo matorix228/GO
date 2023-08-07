@@ -34,6 +34,7 @@
     line-height: 28px;
 }
 
+
 .choose__label {
     color: #fff;
     font-family: Arial,sans-serif;
@@ -41,59 +42,12 @@
     font-weight: 400;
 }
 
-.choose__label_btn {
-    color: #000;
-    text-align: center;
-    font-family: Arial,sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px; /* 133.333% */
-    text-transform: uppercase;
-}
-
-.choose__radio {
-    border: 3px solid transparent;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 250px;
-    height: 55px;
-    border-radius: 8px;
-    background: #FFF;
-}
-
-.choose__radio:hover{
-    border: 3px solid #640AA3;
-    background: #EADEED;
-}
-.choose__radio:active{
-    border: 3px solid #FFF;
-    background: #6C0287;
-}
-
-
-.choose__radio input[type=radio] {
-    display: none;
-}
-
-.choose__radio label {
-    display: inline-block;
-    cursor: pointer;
-    user-select: none;
-    line-height: 34px;
-}
-
-.choose__input_btn {
-    color: #000;
-    z-index: 100;
-}
-
 .choose__input_checkbox {
     width: 25px;
     height: 25px;
 }
 
-.choose__input_radio:focus {
+.choose__label_focus:focus {
     outline: 1px solid #CD06FF;
 }
 
