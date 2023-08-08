@@ -41,7 +41,7 @@ input,label,button {
 }
 
 .container {
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto ;
     overflow: hidden;
     padding: 0 40px ;
