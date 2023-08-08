@@ -125,26 +125,26 @@
             <div class="container book__container">
                 <h2 class="book__title">забронировать</h2>
                 <form action="#" method="post">
-                    <fieldset class="choose choose_row">
+                    <fieldset class="choose">
                         <legend class="choose__title">Выберете зал</legend>
                         <div class="choose__radio">
+                            <input class="choose__input_btn" id="80" type="radio" value="1" name="mode" required  />
                             <label class="choose__label_btn" for="80">80’s vibes</label>
-                            <input class="choose__input_btn" id="80" type="radio" name="mode" required checked />
                         </div>
 
                         <div class="choose__radio">
+                            <input class="choose__input_btn" id="Star" type="radio" value="2" name="mode" required />
                             <label class="choose__label_btn" for="Star">Star wars</label>
-                            <input class="choose__input_btn" id="Star" type="radio" name="mode" required />
                         </div>
 
                         <div class="choose__radio">
+                            <input class="choose__input_btn" id="wild" type="radio" value="3" name="mode" required />
                             <label class="choose__label_btn" for="wild">wild west</label>
-                            <input class="choose__input_btn" id="wild" type="radio" name="mode" required />
                         </div>
 
                         <div class="choose__radio">
+                            <input class="choose__input_btn" id="neon" type="radio" value="4" name="mode" required />
                             <label class="choose__label_btn" for="neon">neon style</label>
-                            <input class="choose__input_btn" id="neon" type="radio" name="mode" required />
                         </div>
                     </fieldset>
 
@@ -152,90 +152,108 @@
                         <legend class="choose__title">Собери набор развлечений</legend>
                         <fieldset class="choose__fieldset">
                             <legend class="choose__subtitle">Приставка:</legend>
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_radio" type="radio" name="console" required />PlayStation
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_radio" id="playstation" type="radio" name="console" required />
+                                <label for="playstation" class="choose__label">PlayStation</label>
+                            </div>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_radio" type="radio" name="console" required />Sega Mega Drive
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_radio" id="sega" type="radio" name="console" required />
+                                <label for="sega" class="choose__label">Sega Mega Drive </label>
+                            </div>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_radio" type="radio" name="console" required />X-box One S
-                            </label>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_radio" type="radio" name="console" required />Dendy
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_radio" id="x-box" type="radio" name="console" required />
+                                <label for="x-box" class="choose__label">X-box One S </label>
+                            </div>
+
+
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_radio" id="dendy" type="radio" name="console" required />
+                                <label for="dendy" class="choose__label">Dendy </label>
+                            </div>
+
                         </fieldset>
 
                         <fieldset class="choose__fieldset">
                             <legend class="choose__subtitle">Настольные игры</legend>
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="board-game" />Jenga
-                            </label>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="board-game" />Monopoly
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="jenga" type="checkbox" name="board-game" />
+                                <label for="jenga" class="choose__label">Jenga</label>
+                            </div>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="board-game" />Манчкин
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="monopoly" type="checkbox" name="board-game" />
+                                <label for="monopoly" class="choose__label">Monopoly</label>
+                            </div>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="board-game" />Alias
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="manchick" type="checkbox" name="board-game" />
+                                <label for="manchick" class="choose__label">Манчкин</label>
+                            </div>
+
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="alias" type="checkbox" name="board-game" />
+                                <label for="alias" class="choose__label">Alias</label>
+                            </div>
                         </fieldset>
 
                         <fieldset class="choose__fieldset">
                             <legend class="choose__subtitle">Дополнительно:</legend>
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="additionally" />Караоке
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="karaoke" type="checkbox" name="additionally" />
+                                <label for="karaoke" class="choose__label">Караоке</label>
+                            </div>
 
-                            <label class="choose__label">
-                                <input class="choose__input choose__input_checkbox" type="checkbox" name="additionally" />VR
-                            </label>
+                            <div class="choose__div">
+                                <input class="choose__input choose__input_checkbox" id="vr" type="checkbox" name="additionally" />
+                                <label for="vr" class="choose__label">VR</label>
+                            </div>
                         </fieldset>
                     </fieldset>
 
-                    <fieldset class="choose">
-                        <legend class="choose__title">Выберите дату и время</legend>
-                        <fieldset class="data">
-                            <fieldset class="data_date">
-                                <label class="choose__label_focus">
-                                    <input class="choose__data choose__data_date" name="date" type="date" placeholder="Дата">
-                                </label>
+                    <fieldset class="data">
+                        <legend class="data__title">Выберите дату и время</legend>
+                        <fieldset class="data__fieldset">
+                            <fieldset class="data__date">
 
-                                <label class="choose__label_focus">
-                                    <input class="choose__data choose__data_time" name="time" type="time" placeholder="Время">
-                                </label>
+                                <div class="data__div data__div_top">
+                                    <input class="data__input" id="date" name="date" type="date" placeholder="Дата">
+                                    <label for="date" class="data__label"></label>
+                                </div>
 
-                                <label class="choose__label_focus">
-                                    <input class="choose__data choose__data_people" name="people" type="number" min="1" placeholder="Количество человек">
-                                </label>
+                                <div class="data__div data__div_top">
+                                    <input class="data__input" id="time" name="time" type="time" placeholder="Время">
+                                    <label for="time" class="data__label"></label>
+                                </div>
+
+                                <div class="data__div data__div_top">
+                                    <input class="data__input data__input_w" id="people" name="people" type="number" min="1" placeholder="Количество человек">
+                                    <label for="people" class="data__label"></label>
+                                </div>
                             </fieldset>
 
-                            <fieldset class="data_name">
-                                <div class="choose__div">
-                                    <label for="name" class="choose__label_text choose__label_focus">Имя</label>
-                                    <input id="name" class="choose__text" type="text" name="name-person" required />
+                            <fieldset class="data__name">
+                                <div class="data__div">
+                                    <label for="name" class="data__label_name">Имя</label>
+                                    <input id="name" class="data__input_name" type="text" name="name-person" required />
                                 </div>
 
-                                <div class="choose__div">
-                                    <label for="surname" class="choose__label_text choose__label_focus">Фамилия</label>
-                                    <input id="surname" class="choose__text" type="text" name="surname-person" required />
+                                <div class="data__div">
+                                    <label for="surname" class="data__label_name">Фамилия</label>
+                                    <input id="surname" class="data__input_name" type="text" name="surname-person" required />
                                 </div>
 
-                                <div class="choose__div">
-                                    <label for="number" class="choose__label_text choose__label_focus">Номер телефона</label>
-                                    <input id="number" class="choose__text" type="number" required />
+                                <div class="data__div">
+                                    <label for="number" class="data__label_name">Номер телефона</label>
+                                    <input id="number" class="data__input_name" type="number" required />
                                 </div>
 
-                                <div class="choose__div">
-                                    <label for="email" class="choose__label_text choose__label_focus"> Email</label>
-                                    <input id="email" class="choose__text" type="email" required />
+                                <div class="data__div">
+                                    <label for="email" class="data__label_name"> Email</label>
+                                    <input id="email" class="data__input_name" type="email" required />
                                 </div>
                             </fieldset>
                         </fieldset>
@@ -339,7 +357,7 @@
                <ul class="contact__list">
                    <li class="contact__input contact__input_address">
                        <span class="contact__text">г.Москва</span>
-                       <span class="contact__text_padding-left"> ул.Аквамарина,16</span>
+                       <span class="contact__text contact__text_padding-left"> ул.Аквамарина,16</span>
                    </li>
 
                    <li class="contact__input contact__input_call">

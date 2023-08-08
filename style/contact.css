@@ -7,6 +7,7 @@
 
 .contact__input {
     font-size: 24px;
+    cursor: pointer;
 }
 
 .contact__input_address {
@@ -17,6 +18,13 @@
 
 .contact__text_padding-left {
     padding-left: 70px;
+}
+
+
+.contact__input:hover {
+    text-decoration: underline;
+    color: #e5ba68;
+    transition: 2s;
 }
 
 .contact__input_address:before {

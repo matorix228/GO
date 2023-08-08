@@ -19,6 +19,17 @@
     color: #fff;
 }
 
+.menu__link:hover {
+    text-decoration: underline;
+    color: #e5ba68;
+    transition: 2s;
+}
+
+.menu__link:active {
+    color: #840AA3;
+    transition: 500ms;
+}
+
 .menu__item {
     line-height: 30px;
     font-size: 22px;

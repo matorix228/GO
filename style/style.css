@@ -9,6 +9,7 @@
 @import "book.css";
 @import "choose.css";
 @import "choose_radio.css";
+@import "data.css";
 
 body {
     background-color: #1B1A1B;
