@@ -51,7 +51,7 @@
 }
 
 .menu__button:hover, .menu__button:focus {
-    border: 3px solid #6C0287;
+    border: 3px solid var(--main-color);
     background: #6C0287;
 }
 

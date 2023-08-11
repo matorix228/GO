@@ -71,7 +71,7 @@
     line-height: 30px; /* 115.385% */
     text-transform: uppercase;
     border-radius: 10px;
-    background: #6C0287;
+    background: var(--main-color);
     text-decoration: none;
 }
 
@@ -90,7 +90,7 @@
 .introduction__link-end{
     position: absolute;
     right: 50%;
-    bottom: 50px;
+    bottom: 100px;
 }
 /*.introduction__link-end:before,*/
 /*.introduction__link-end:after {*/
@@ -131,6 +131,6 @@
     border: none;
     border-radius: 50%;
     fill: #fff;
-    background-color: #CD06FF;
+    background-color: var(--main-color);
 }
 

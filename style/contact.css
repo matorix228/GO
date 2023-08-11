@@ -20,13 +20,6 @@
     padding-left: 70px;
 }
 
-
-.contact__input:hover {
-    text-decoration: underline;
-    color: #e5ba68;
-    transition: 2s;
-}
-
 .contact__input_address:before {
     content: url("./../img/location.svg");
     margin-right: 31px;

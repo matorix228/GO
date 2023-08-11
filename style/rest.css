@@ -1,7 +1,14 @@
 
+
+.rest__container {
+    display: block;
+    padding:  0 40px 40px;
+}
+
+
 .rest__title {
     width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     color: #FFF;
     font-family: Arial,sans-serif;
     font-size: 40px;
@@ -16,6 +23,7 @@
     flex-wrap: wrap;
     gap: 40px 20px;
     padding: 0;
+    margin: 0;
 }
 
 .rest__item {
@@ -28,7 +36,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-    margin: auto;
+    margin: 0;
     transition: 2s;
 }
 
@@ -66,3 +74,4 @@
     display: flex;
     margin: 0 40px;
 }
+

@@ -70,7 +70,7 @@
     border: 3px solid transparent;
     border-radius: 10px;
     background: #FFF;
-    color: #6C0287;
+    color: var(--main-color);
     font-family: Arial,sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -82,7 +82,7 @@
 
 .choose__book:hover {
     border-radius: 10px;
-    border: 3px solid #6C0287;
+    border: 3px solid var(--main-color);
     background: #EADEED;
 }
 .choose__book:active {
@@ -93,7 +93,7 @@
 
 .choose__book:focus{
     border-radius: 10px;
-    border: 3px solid #6C0287;
+    border: 3px solid var(--main-color);
     background: #FFF;
 }
 

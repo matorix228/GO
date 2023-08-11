@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-            <article class="menu">
+            <section class="menu">
                 <img class="menu__logo" src="./img/logo.svg" alt="">
                 <nav class="menu__navigation">
                     <ul class="menu__list">
@@ -36,9 +36,9 @@
                 <form class="menu__form" action="#" method="post">
                     <button class="menu__button">заказать звонок</button>
                 </form>
-            </article>
+            </section>
 
-            <article class="introduction">
+            <section class="introduction">
                 <div class="container introduction__container">
                     <h1 class="introduction__title">GAME OVER</h1>
                     <p class="introduction__subtitle">Новый формат игр и отдыха</p>
@@ -61,20 +61,20 @@
                             </a>
                         </div>
                     </div>
-            </article>
+            </section>
     </header>
 
     <main class="main">
 
         <section class="rest">
-           <div class="container">
+           <div class="container rest__container">
                <h2 class="rest__title">У нас есть все для классного отдыха с друзьями!</h2>
                <ul class="rest__list">
                    <li class="rest__item rest__item_vr">
                        <span class="rest__text">VR очки</span>
                    </li>
 
-                   <li class="rest__item rest__item_sound">
+                   <li class="rest__item rest__item_sound rest__item_margin">
                        <span class="rest__text  rest__text_margin">Аудио-система 5.1 с отличным звуком</span>
                    </li>
 
@@ -86,7 +86,7 @@
                        <span class="rest__text">Настольные игры</span>
                    </li>
 
-                   <li class="rest__item rest__item_netflix">
+                   <li class="rest__item rest__item_netflix rest__item_margin">
                        <span class="rest__text rest__text_margin">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span>
                    </li>
 
@@ -273,7 +273,7 @@
                     <div class="about__blockquote-container">
                         <blockquote class="about__blockquote">
                             <cite class="about__quote">
-                                GAME OVER - это место незабываемых впечатлений
+                                <span class="about__span"> GAME OVER — это место незабываемых впечатлений </span>
                             </cite>
                             <figure class="about__quote-figure">
                                 <img class="about__quote_img" src="./img/arkadiy.png" alt="">
@@ -359,14 +359,8 @@
                        <span class="contact__text">г.Москва</span>
                        <span class="contact__text contact__text_padding-left"> ул.Аквамарина,16</span>
                    </li>
-
-                   <li class="contact__input contact__input_call">
-                       <span class="contact__text">8 (950) 930-28-93</span>
-                   </li>
-
-                   <li class="contact__input contact__input_gmail">
-                       <span class="contact__text">GameOver@gmail.com</span>
-                   </li>
+                   <li class="contact__input contact__input_call">8 (950) 930-28-93</li>
+                   <li class="contact__input contact__input_gmail">GameOver@gmail.com</li>
                </ul>
                <ul class="contact__list contact__list_row">
                    <li class="contact__input contact__input_r-margin">
@@ -403,7 +397,6 @@
                </ul>
                </div>
            </section>
-
     </footer>
 </body>
 </html>

@@ -41,6 +41,9 @@
 }
 
 .about__quote {
+    display: block;
+    padding-left: 30px;
+    position: relative;
     margin: 0 0 39px 0;
     text-transform: uppercase;
     float: left;
@@ -57,27 +60,29 @@
 }
 
 .about__quote:before {
-    content: '"';
-    color: #6C0287;
+    content: '”';
+    color: var(--main-color);
+    position: absolute;
     font-size: 44px;
     font-weight: 900;
+    left: 0;
+    top: -20px;
+    rotate: 180deg;
 }
 
 .about__quote:after {
-    content: '"';
-    color: #6C0287;
+    content: '”';
+    color: var(--main-color);
+    position: absolute;
     font-size: 44px;
     font-weight: 900;
+    right: 10px;
 }
 
 .about__quote_text {
     font-size: 20px;
     width: 250px;
     margin: 0;
-}
-
-.about__span {
-    padding-left: 22px;
 }
 
 .about__span_word-break {

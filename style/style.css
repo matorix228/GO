@@ -11,6 +11,10 @@
 @import "choose_radio.css";
 @import "data.css";
 
+:root {
+    --main-color: #6C0287;
+}
+
 body {
     background-color: #1B1A1B;
     color: #fff;
@@ -34,7 +38,7 @@ section{
 }
 
 fieldset {
-    border:0 none;
+    border: 0 none;
 }
 
 input,label,button {
@@ -45,6 +49,5 @@ input,label,button {
     max-width: 1180px;
     margin: 0 auto ;
     overflow: hidden;
-    padding: 0 40px ;
 }
 
