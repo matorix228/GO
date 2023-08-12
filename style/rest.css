@@ -3,6 +3,7 @@
 .rest__container {
     display: block;
     padding:  0 40px 40px;
+    height: 708px;
 }
 
 
@@ -75,3 +76,7 @@
     margin: 0 40px;
 }
 
+.rest__item_margin {
+    position: relative;
+    top: 70px;
+}

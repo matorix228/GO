@@ -21,7 +21,22 @@
     font-size: 20px;
 }
 
+.feedback__item {
+    position: relative;
+}
+
 .feedback__img {
     margin-bottom: 20px;
+}
+
+.feedback__figcaption:before {
+    content: "";
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
 }
 
